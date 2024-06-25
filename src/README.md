@@ -2,8 +2,16 @@
 
 ## Para rodar
 
-no terminal utilize o comando python main.py
+No terminal, utilize o seguinte comando:
 
-provavelmente vai faltar algumas bibliotecas caso você não tenha um ambiente python mais completo, mas o projeto será testado pelo professor, suponho que o ambiente seja mais adequado, por exemplo, é necessário usar o tensorflow, ai use pip install tensorflow, então qualquer problema que diga que não encontrou uma importação é só dar o pip install.
+````sh python main.py````
 
-o código não está perfeito, nem perto disso, para ver a parte que identifica as notas é necessário ir no arquivo "pentagram_analysis" e descomentar da linha 99 até 104 e comente das linhas 105 até 166, e sim, há uma forma mais obvia de manter tudo funcionando ao mesmo tempo, por exemplo renomeando pentagram_images pra não conflitar, mas eu já não tenho mais paciencia pra esse trem. 
+É possível que algumas bibliotecas estejam ausentes, especialmente se o ambiente Python não for completo. Como o projeto será avaliado pelo professor, presumimos que o ambiente de execução será adequado. Caso encontre erros relacionados a bibliotecas ausentes, instale-as utilizando o pip. Por exemplo, para instalar o TensorFlow, use o comando:
+
+````pip install tensorflow````
+
+Se houver problemas indicando que uma importação não foi encontrada, simplesmente instale a biblioteca correspondente com o pip install.
+
+O código ainda não está totalmente otimizado. Para visualizar a parte que identifica as notas musicais, acesse o arquivo pentagram_analysis. Descomente as linhas 99 a 104 e comente as linhas 105 a 166. Embora exista uma maneira mais eficaz de manter todas as funcionalidades simultaneamente, como renomear pentagram_images para evitar conflitos, não houve tempo suficiente para implementar essa solução.
+
+Se precisar de mais alguma alteração, é só avisar!
