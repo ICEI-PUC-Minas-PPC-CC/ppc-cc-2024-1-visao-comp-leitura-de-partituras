@@ -1,46 +1,39 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Este documento apresenta uma visão geral do projeto "Leitor de Partituras", incluindo o contexto, o problema que se propõe a resolver, os objetivos, a justificativa e o público-alvo. Este projeto visa desenvolver uma aplicação capaz de ler partituras musicais na clave de sol, extrair informações e reproduzir a música, utilizando técnicas avançadas de reconhecimento de padrões e machine learning.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+O problema abordado por este projeto é a dificuldade que muitos músicos, especialmente iniciantes e intermediários, têm em interpretar e tocar partituras musicais. A leitura de partituras exige conhecimento teórico e prática, o que pode ser um obstáculo significativo para quem está começando. Além disso, a tarefa de transcrever a música de uma partitura para um instrumento pode ser demorada e propensa a erros.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+**Contexto**:
+- **Ambiente**: A aplicação será utilizada por músicos, estudantes de música e professores, tanto em ambientes educacionais quanto em práticas pessoais.
+- **Tecnologias**: A solução envolve o uso de técnicas de reconhecimento óptico de caracteres musicais (OMR) e machine learning para treinar o software a identificar diferentes tipos de notas musicais e estruturas das partituras.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste projeto é desenvolver um software que lê partituras musicais na clave de sol, extrai as informações musicais e reproduz a música automaticamente.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+**Objetivos Específicos**:
+1. Implementar um sistema de reconhecimento óptico de caracteres musicais capaz de identificar notas quarter, sixteenth, half, eight e whole.
+2. Desenvolver um algoritmo para escanear e interpretar as linhas e espaços dos pentagramas, determinando a posição e duração das notas.
+3. Criar um módulo de reprodução musical que converta as informações extraídas da partitura em som.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Este projeto é importante porque facilita o aprendizado e a prática musical, reduzindo a barreira entre a leitura de partituras e a execução musical. Ao automatizar o processo de interpretação de partituras, a aplicação permite que músicos se concentrem mais na prática e menos na decodificação das notas.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+**Motivações**:
+- **Educacional**: Ajudar estudantes de música a entender e praticar leitura de partituras com mais facilidade.
+- **Prática**: Fornecer uma ferramenta que permita músicos de todos os níveis praticar e tocar novas músicas rapidamente.
+- **Tecnológica**: Aplicar e expandir conhecimentos em machine learning e reconhecimento de padrões para o campo da música.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público-alvo da aplicação "Leitor de Partituras" inclui:
+- **Estudantes de Música**: Indivíduos que estão aprendendo a ler partituras e a tocar instrumentos musicais.
+- **Professores de Música**: Educadores que podem usar a ferramenta como apoio didático em aulas de teoria musical e prática instrumental.
+- **Músicos Amadores**: Pessoas que tocam música como hobby e desejam facilitar a prática e o aprendizado de novas peças.
+- **Músicos Profissionais**: Instrumentistas que podem utilizar a ferramenta para transcrever e praticar partituras com maior eficiência.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Para definir melhor o público-alvo, podem ser utilizadas técnicas como criação de personas e mapeamento de stakeholders, proporcionando uma compreensão mais detalhada dos diferentes perfis de usuários e suas necessidades.
