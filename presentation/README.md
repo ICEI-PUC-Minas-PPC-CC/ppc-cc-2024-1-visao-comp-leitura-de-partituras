@@ -41,4 +41,5 @@ A solução final é um software robusto e intuitivo que lê partituras musicais
 ### Video
 
 Os videos explicativos estão na pasta do drive no link abaixo, o video foi longo para colocar aqui :)
+
 https://drive.google.com/drive/folders/1Orj-BJPOgmgBW5hV80KdS7Ay7kUuT-2w?usp=sharing
