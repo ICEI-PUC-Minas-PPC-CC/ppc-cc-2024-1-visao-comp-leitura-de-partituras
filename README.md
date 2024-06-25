@@ -1,19 +1,16 @@
-# TÍTULO DO PROJETO
+# Leitor de Partituras
 
 `PPC-CC: PUC Poços de Caldas - Ciência da Computação`
-`Disciplina: NOME DA DISCIPLINA`
-`2021 - Semestre 1`
+`Disciplina: CIÊNCIA DA COMPUTAÇÃO`
+`2024 - Semestre 7`
 
 ## Integrantes
 
-- Jeff Bezos
-- Bill Gates
-- Larry Ellison
-- Mark Zuckerberg
+- Deborah Dalonso
 
 ## Professor
 
-- Mestre Yoda
+- Will Machado
 
 # Documentação
 
