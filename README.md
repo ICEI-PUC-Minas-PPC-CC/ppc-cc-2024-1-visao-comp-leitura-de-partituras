@@ -14,7 +14,7 @@
 
 # Documentação
 
-O projeto consiste em um programa em python para ler uma partitura em clave de sol, extrair suas informações e tocar a música extraida.
+<li><a href="docs/1-Documentação de Contexto.md">1. Documentação de Contexto</a></li>
 
 # Código
 
